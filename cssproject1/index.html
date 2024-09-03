@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first css</title>
+    <!--this shows the external css which is more prior than the internal css but less prior than the inline css(or the css defined in the element itself through the style attribute)-->
+    <style>
+        #heading2 {
+            color: blue;
+        }
+
+        #heading1 {
+            color: blue;
+        }
+
+        #heading {
+            color: blue;
+        }
+        .class{
+            color:blueviolet;
+        }
+        #H1{
+            color:aqua;
+        }
+        p{
+            color:brown;
+        }
+        #first,#second{
+            color:rgb(223, 137, 7);
+        }
+        div{
+            color:darkgrey;
+        }
+    </style>
+    <!--this shows the external css which is least prior among three types of the css-->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 style="color:red">This is the first file for the css</h1>
+    <!--most prior type of the css is inline css so the internal css applied to the same element is the working-->
+    <div id="heading" style="color:red">This is the first css box</div>
+    <div id="heading1">This is the another heading</div>
+    <div id="heading2">This is the another one heading</div><hr>
+    <div id="box1" class="class">Box</div>
+    <h1 id="H1" class="class">Heading</h1>
+    <p id="p1" class="class">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, vel. Eaque nihil vel ab cupiditate eveniet similique dolorem, optio blanditiis.</p><hr>
+    <div id="first">box2</div>
+    <div id="second">box3</div>
+</body>
+
+</html>

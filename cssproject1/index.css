@@ -1,0 +1,10 @@
+#heading{
+    color:rgb(146, 213, 75);
+}
+#heading1{
+    color:rgb(183, 183, 23);
+}
+/*external css is more  than internal css nown as this css is applying rather than the internal css in the html <head> tag*/
+/*#heading2{
+    color:darkgreen;
+}*/
