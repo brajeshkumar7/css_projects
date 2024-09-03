@@ -1,0 +1,17 @@
+h1{
+    /*text-transform: capitalize;*/
+    /*text-transform: uppercase;*/
+    text-transform: lowercase;
+    text-align: center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+#outer{
+    font-size: 25px;
+
+}
+div div {
+    font-size: 10px;
+}
