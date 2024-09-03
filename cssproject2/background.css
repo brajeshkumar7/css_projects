@@ -1,0 +1,32 @@
+div #p1{
+    background-color:rgba(55,68,100,0.5 );
+}
+/*this is the use of decendent selector*/
+main h1{
+    color:blue;
+
+}
+ section{
+    color:aquamarine;
+}
+/*we can use decendent selector if we want otherwise don't need to use it for styling nested elements*/
+#box{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg);
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+}
+/*in shorthand background-size control(like contain) doesn't work*/
+#box1{
+    height: 400px;
+    width: 400px;
+    background: red url(https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg) no-repeat scroll center;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    visibility:hidden;
+}
